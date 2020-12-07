@@ -1,10 +1,13 @@
 import './App.css';
+import { Provider } from 'react-redux';
+import MainPage from './components/MainPage';
 
 function App() {
   return (
-    <div className="App">
-      <h1>React and Node.js basic project</h1>
+    <div>
+      <MainPage />
     </div>
+
   );
 }
 
